@@ -1,14 +1,18 @@
 ﻿
 Oppgave Social Media:
-
 Lag applikasjon FriendFace. 
 
-Her trenger en bruker en profilside med diverse info om seg (ta gjerne inspirasjon fra andre sosiale medier),
 
-Du må lage en metode som heter “AddFriend” og en metode “RemoveFriend”.
+Her trenger en bruker en: 
+	- profilside med diverse info om seg (ta gjerne inspirasjon fra andre sosiale medier)
+
+Du må lage en metoder:
+	- “AddFriend”
+	- “RemoveFriend”.
 
 Når programmet starter opp skal du lage en hovedbruker som er “innlogget”. 
 Du må også opprette flere forskjellige brukere som lever på det sosiale mediet.
+
 
 
 Lag et kommandbasert meny i konsollen der du kan:
