@@ -10,6 +10,7 @@ Du må lage en metoder:
 	- “AddFriend”
 	- “RemoveFriend”.
 
+
 Når programmet starter opp skal du lage en hovedbruker som er “innlogget”. 
 Du må også opprette flere forskjellige brukere som lever på det sosiale mediet.
 
