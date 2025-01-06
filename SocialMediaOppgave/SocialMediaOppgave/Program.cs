@@ -4,16 +4,13 @@ using SocialMediaOppgave;
 Console.WriteLine("SocialMedia Oppgave");
 
 
-void Main()
-{
-    var mainUser = new User("Bethina", 15081996, "slowly losing all my hair while studying IT");
+var mainUser = new User("Bethina", 15081996, "slowly losing all my hair while studying IT");
 
-    var user1 = new User("Kairo", 11032023, "I love q-tips and screaming!");
-    var user2 = new User("Oscar", 24032024, "i'm not fat, i'm big boned and fluffy thank you very much");
-    var user3 = new User("Luna", 19032014, "I have one and a half ear and I can still hear you talking too much.");
+var user1 = new User("Kairo", 11032023, "I love q-tips and screaming!");
+var user2 = new User("Oscar", 24032024, "i'm not fat, i'm big boned and fluffy thank you very much");
+var user3 = new User("Luna", 19032014, "I have one and a half ear and I can still hear you talking too much.");
 
-    
-}
+
 
 void Menu()
 {
@@ -32,8 +29,12 @@ void Menu()
             case "2":
                 break;
             case "3":
+                mainUser.PrintFriendList();
                 break;
             case "4":
+                Console.WriteLine("Whose profile do you want to see?");
+                mainUser.PrintFriendList();
+
                 break;
             case "5":
                 isRunning = false;
@@ -44,6 +45,7 @@ void Menu()
                 Environment.Exit(0);
                 break;
             default:
+                Console.WriteLine("Not a valid choice, try again.");
                 break;
         }
     }
